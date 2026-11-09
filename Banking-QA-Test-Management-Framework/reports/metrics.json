@@ -1,0 +1,22 @@
+{
+  "requirements": 6,
+  "requirements_covered": 6,
+  "test_cases": 8,
+  "passed": 6,
+  "failed": 1,
+  "blocked": 1,
+  "not_run": 0,
+  "execution_pct": 87.5,
+  "pass_pct": 85.7,
+  "open_high_critical_defects": 1,
+  "criteria": {
+    "all_requirements_covered": true,
+    "execution_at_least_95pct": false,
+    "pass_rate_at_least_95pct": false,
+    "all_critical_tests_pass": true,
+    "no_open_high_or_critical_defects": false,
+    "no_blocked_tests": false
+  },
+  "release_decision": "NO-GO",
+  "data_note": "Synthetic demonstration, not production results"
+}

@@ -1,0 +1,7 @@
+requirement_id,title,priority,description
+REQ-001,Transfer between active accounts,High,Transfer funds only when sender and recipient accounts are active.
+REQ-002,Sufficient balance,Critical,Reject a transfer exceeding the available sender balance.
+REQ-003,Daily transfer limit,High,Reject transfers exceeding the configured daily limit of 5000 units.
+REQ-004,Atomic balance update,Critical,A successful transfer must debit and credit exactly once.
+REQ-005,Audit trail,High,Every transfer attempt must have a traceable transaction status.
+REQ-006,Invalid amount,Medium,Reject zero or negative transfer amounts.

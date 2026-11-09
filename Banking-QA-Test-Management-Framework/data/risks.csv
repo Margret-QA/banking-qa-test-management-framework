@@ -1,0 +1,6 @@
+risk_id,risk,severity,likelihood_1_to_5,impact_1_to_5,mitigation,test_links
+R-01,Double debit / inconsistent balances,Critical,5,5,Atomic database transaction; reconciliation SQL,TC-004;TC-008
+R-02,Unauthorized or invalid transfers,High,4,4,Account-state validation and negative testing,TC-001;TC-007
+R-03,Daily limit bypass,High,4,4,Boundary testing and defect escalation,TC-003
+R-04,Missing audit evidence,High,3,4,Audit record integrity checks,TC-005
+R-05,Invalid transfer amount,Medium,3,3,Negative testing,TC-006

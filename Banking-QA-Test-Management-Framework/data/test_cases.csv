@@ -1,0 +1,9 @@
+test_id,requirement_id,test_type,scenario,priority,status,defect_id
+TC-001,REQ-001,Positive,Active accounts transfer,High,Passed,QA-101
+TC-002,REQ-002,Negative,Insufficient funds rejected,Critical,Passed,
+TC-003,REQ-003,Boundary,Amount above daily limit rejected,High,Failed,QA-102
+TC-004,REQ-004,Integration,Debit and credit reconcile,Critical,Passed,
+TC-005,REQ-005,Audit,Transfer audit row persisted,High,Passed,
+TC-006,REQ-006,Negative,Zero amount rejected,Medium,Passed,
+TC-007,REQ-001,Negative,Inactive recipient rejected,High,Blocked,QA-103
+TC-008,REQ-004,Regression,Duplicate transfer reference prevented,Critical,Passed,

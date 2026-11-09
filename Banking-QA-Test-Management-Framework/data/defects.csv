@@ -1,0 +1,4 @@
+defect_id,test_id,severity,status,summary,notes
+QA-101,TC-001,Low,Closed,UI message alignment,Resolved in simulated triage
+QA-102,TC-003,High,Open,Transfer limit boundary permits amount above limit,Release blocker pending fix
+QA-103,TC-007,Medium,In Progress,Inactive recipient test environment unavailable,Blocked test awaiting environment
